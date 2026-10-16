@@ -1,44 +1,20 @@
-# spa-directivas
+# SPA Directivas Vue 3
 
-This template should help get you started developing with Vue 3 in Vite.
+Single Page Application construida con Vue 3 y Vue Router que muestra ejemplos de las principales directivas de Vue.
 
-## Recommended IDE Setup
+## Directivas incluidas
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- `v-if` / `v-else-if` / `v-else` — Renderizado condicional
+- `v-show` — Visibilidad por CSS
+- `v-for` — Iteración de listas
+- `v-bind:key` — Clave única en bucles
 
-## Recommended Browser Setup
+## Tecnologías
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Vue 3
+- Vue Router
+- Vite
 
-## Customize configuration
+## Sitio publicado
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+https://fabriciodecuesta19-ux.github.io/spa-directivas/
