@@ -14,5 +14,15 @@
 
 <script setup>
 import { ref } from 'vue'
-const frutas = ref(['Manzana', 'Pera', 'Uva', 'Mango', 'Fresa'])
+
+const frutas = ref([
+  'Manzana',
+  'Pera',
+  'Uva',
+  'Mango',
+  'Fresa',
+  'Kiwi',
+  'Sandía',
+  'Piña'
+])
 </script>
