@@ -9,6 +9,7 @@
     <button @click="visible = !visible">Mostrar / Ocultar</button>
 
     <p v-show="visible">👋 ¡Hola! Estoy visible gracias a v-show.</p>
+    <p v-show="!visible">🙈 Ahora estoy oculto. ¡Vuelve a hacer clic!</p>
   </main>
 </template>
 
