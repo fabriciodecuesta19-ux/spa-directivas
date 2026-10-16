@@ -15,10 +15,18 @@
     <p v-if="estado === 'activo'">✅ Usuario activo</p>
     <p v-else-if="estado === 'inactivo'">⛔ Usuario inactivo</p>
     <p v-else>❓ Estado desconocido</p>
+
+    <p><em>Cambios realizados: {{ contador }}</em></p>
   </main>
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
+
 const estado = ref('activo')
+const contador = ref(0)
+
+watch(estado, () => {
+  contador.value++
+})
 </script>
